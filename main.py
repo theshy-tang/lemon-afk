@@ -7,9 +7,8 @@ from datetime import datetime, timezone, timedelta
 
 # ========= 配置 =========
 
-EMAIL = os.getenv("LEMON_EMAIL")
-PASSWORD = os.getenv("LEMON_PASSWORD")
-
+EMAIL = tangible4512@gmail.com
+PASSWORD = jrwr0s4rst
 BASE_URL = "https://servercreationlemon.onrender.com"
 LOGIN_URL = f"{BASE_URL}/auth/login"
 ME_URL = f"{BASE_URL}/auth/me"
@@ -146,3 +145,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
